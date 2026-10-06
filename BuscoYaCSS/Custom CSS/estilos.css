@@ -1,0 +1,643 @@
+body {
+    background: white;
+    font-family: 'HankenBook';
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 58px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.naranja {
+    background-color: orange;
+}
+
+.naranja-translucido {
+    background-color: rgba(255, 166, 0, 0.5);
+}
+
+a {
+    color: white;
+    transition: all ease 0.3s;
+}
+
+a:hover {
+    transform: scale(1.02);
+    transition: all ease 0.3s;
+    text-decoration: none;
+    color: #44444483;
+}
+
+.nomargin {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+nav.naranja.fixed-top {
+    padding-bottom: -10px;
+}
+
+.slider {
+    background: linear-gradient(rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)), url(../img/slider.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 40vh;
+}
+
+.text-orange {
+    color: #ff9201;
+}
+
+i.fas,
+i.far {
+    font-size: 2.5em;
+
+}
+
+.size-1 {
+    font-size: 0.7em;
+}
+
+h6 {
+    font-size: 0.9em;
+}
+
+.reducir-pr {
+    padding-right: 1px;
+}
+
+.reducir-pl {
+    padding-left: 5px;
+    ;
+}
+
+.centrar {
+    margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .features {
+        display: none;
+    }
+
+
+}
+
+.fondo-blanco {
+    background: white;
+}
+
+.fondo-azul {
+    background: #d5ddff
+}
+
+.black-font {
+    color: black;
+}
+
+.modelos a {
+    font-size: 0.9rem;
+    margin-left: -15px;
+}
+
+li a {
+    color: gray;
+}
+
+.gray-font {
+    color: gray;
+}
+
+.precio-producto {
+    color: #ff9201;
+    font-size: 2em;
+}
+
+.fab {
+    font-size: 3em;
+}
+
+.facebook:hover i {
+    color: rgb(0, 14, 207);
+}
+
+.linkedin:hover i {
+    color: rgb(56, 123, 230);
+}
+
+.instagram:hover i {
+    color: rgb(224, 96, 96);
+}
+
+.whatsapp:hover .fa-whatsapp {
+    color: rgb(23, 185, 23);
+}
+
+.btn.naranja:hover {
+    color: white;
+    background-color: gray;
+}
+
+btn:hover {
+    background-color: gray;
+    color: white;
+}
+
+.aumentar {
+    font-size: 1.2em;
+}
+
+.ofertas .fa-hand-point-right {
+    font-size: 0.7em;
+}
+
+.ofertas .fa-hand-point-down {
+    font-size: 0.8em;
+}
+
+.busqueda {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/BuscoYa-heroarea.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh;
+
+}
+
+@media only screen and (max-width: 767px) {
+    .publicar-proyecto {
+        height: 40vh!important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .publicar-proyecto {
+       font-size: 0.7em;
+       height: 45vh!important;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .publicar-proyecto {
+       margin-top: 8%;
+    }
+}
+.publicar-proyecto {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 25vh;
+    box-sizing: border-box;
+    }
+
+    .publicar-proyecto-right {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 2 1 auto;
+    -ms-flex: 2 1 auto;
+    flex: 2 1 auto;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    background-color: rgb(187, 84, 43);
+    background-color: #ff9201;
+    }
+
+    .publicar-proyecto-left {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 2 1 auto;
+    -ms-flex: 2 1 auto;
+    flex: 2 1 auto;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    background-color: #4194cc;
+    }
+
+    .boton-azul{
+        background-color: #4194cc;
+        transition: all ease .3s
+    }
+
+    .boton-azul:hover{
+        background-color: #0099ff;
+        transform: scale(1.06);
+    }
+    .boton-publicar-idea {
+        padding-left: 10%;
+        padding-right: 10%; 
+    }
+
+
+.encontra-profesionales {
+    margin-top: 60px;
+}
+
+
+@media only screen and (min-width: 574px) {
+    input.buscar.form-control {
+        width: 300px;
+        text-align: center;
+        height: 50px;
+    }
+
+    button.btn.buscar {
+        height: 50px;
+    }
+    
+
+}
+
+.navbar-brand span {
+    font-size: 1.5em;
+}
+
+.buscar {
+    height: 3.2em;
+}
+
+.buscar::placeholder {
+    color: rgb(190, 190, 190);
+}
+
+
+@media only screen and (min-width: 992px) {
+    .nav-app {
+        display: none;
+    }
+}
+
+.nav-app nav div div ul li a {
+    font-size: 0.7em;
+}
+
+.nav-app {
+    padding: 0px 0px;
+    margin-bottom: -5px;
+}
+
+a.nav-link>span {
+    font-size: 1.2em;
+}
+
+@media only screen and (max-width: 991px) {
+    body {
+        padding-bottom: 66px;
+    }
+}
+
+button.d-lg-none i {
+    font-size: 0.7em;
+}
+
+.input-group input.input-ol {
+    border-radius: 50px;
+}
+
+button.rounded {
+    border-radius: 0% 50% 50% 0% !important;
+}
+
+.pb-0 {
+    padding-bottom: 0px !important;
+}
+
+.mb-0 {
+    margin-bottom: 0px !important;
+}
+
+.ubicacion,
+.rubro {
+    display: inline;
+}
+
+.ubicacion {
+    font-size: 0.8em;
+}
+
+
+.anuncio {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: all ease 0.3s;
+    width: 98%;
+    border-radius: 10px;
+    background-color: #ff9b3e0e;
+    padding: 0px;
+    border: solid 2px #ff910159
+}
+
+.anuncio:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+    transition: all ease 0.3s;
+}
+
+.es-destacado {
+    background-color: #ff9201;
+    width: 6em;
+    height: 1em;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 7px;
+}
+
+.es-destacado p {
+    font-size: 0.7em;
+}
+
+.es-basico {
+    padding-top: 10px;
+    border: none;
+}
+
+.nombre-descripcion,
+.provincia-rubros {
+    padding: 2px 16px;
+}
+
+.nombre-descripcion h4 {
+    color: #ff9201;
+}
+
+
+
+.container {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/*¿Cómo funciona?*/
+@media only screen and (min-width: 800px) {
+
+    .cajas {
+        display: table !important;
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 30px;
+    }
+}
+
+.caja {
+    display: table-cell;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: all ease 0.3s;
+    width: 98%;
+    border-radius: 10px;
+    background-color: #ffa2000e;
+    padding: 0px;
+    border: solid 2px #72727217;
+    top: 0;
+    bottom: 0;
+
+}
+
+.caja:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+    transition: all ease 0.3s;
+}
+
+
+/*Busqueda*/
+
+
+
+.por-ubicacion {
+    padding: 10px 30px;
+    margin: 0 auto;
+}
+
+.por-ubicacion.border {
+    border: rgba(87, 87, 87, 0.233) 1px solid!important;
+}
+
+/*Registro - planes*/
+
+.registro {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/BuscoYa\ -\ registrarme.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+
+}
+
+.formulario-registro {
+    background-color: #b88e3310;
+}
+
+.plan {
+    margin: 10px;
+    background-color: #ffcd7628;
+    padding: 50px 30px;
+    border-radius: 2%;
+    border: solid rgba(0, 0, 0, 0.123) 0.5px;
+    transition: all ease .3s;
+}
+
+
+.tag {
+    background-color: #ff9201;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+    padding: 0.3em;
+    font-size: 0.7em;
+}
+
+
+.nombre-plan {
+    font-size: 1.6em;
+}
+
+.gratis {
+    font-size: 2.8em;
+}
+
+.gratis > span {
+    font-size: 0.3em;
+    display: block;
+    margin-bottom: 1.2em;
+}
+
+.plan:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+    transition: all ease 0.3s;
+}
+
+
+/*Ventanas modales*/
+
+.modal-dialog {
+    position: absolute!important;
+    top: 50%!important;
+    left: 50%!important;
+    transform: translate(-50%, -50%) !important;
+}
+
+.modal-content {
+    padding: 50px;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+/*Para celulares*/
+
+@media only screen and (min-width: 401px)and (max-width: 480px) {
+    .encontra-profesionales {
+        margin-top: -20px;
+
+    }
+
+    .buscar {
+        width: 98vw;
+    }
+
+    .buscar.anunciar {
+        width: 50vw;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+
+}
+
+/*Para celulares pantalla muy pequeña*/
+
+@media only screen and (max-width: 400px) {
+    .encontra-profesionales {
+        margin-top: -20px;
+        font-size: 2em;
+    }
+
+    .buscar {
+        width: 98vw;
+    }
+    .buscar.anunciar {
+        width: 50vw;
+    }
+    .sidebar {
+        display: none;
+    }
+}
+
+/*Para tablets pequeñas*/
+@media only screen and (min-width: 481px) and (max-width: 580px) {
+    .encontra-profesionales {
+        margin-top: -20px;
+
+    }
+
+    .buscar {
+        width: 98vw;
+    }
+
+    .buscar.anunciar {
+        width: 50vw;
+    }
+    .sidebar {
+        display: none;
+    }
+}
+
+/*tablets tradicionales*/
+
+/*pantallas grandes*/
+@media only screen and (min-width: 800px) {
+    .caja {
+        width: 25%;
+        border-collapse: separate;
+        border-spacing: 50px;
+
+    }
+
+    .resultados {
+        display: table;
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 30px;
+    }
+    
+    .sidebar {
+        display: table-cell;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: all ease 0.3s;
+        width: 20%;
+        border-radius: 10px;
+        background-color: #b8c1f70e;
+        padding: 0px;
+        border: solid 2px #72727217;
+        top: 0;
+        bottom: 0;
+    }
+
+    .listado {
+        display: table-cell;
+        width: 80%;
+        background-color: #ffffff0e;
+        padding: 0px;
+        top: 0;
+        bottom: 0;
+        border-left: #ff910138 solid 1px
+    }
+
+    .filtrar-btn {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 800px) and (min-height: 650px) {
+    .encontra-profesionales {
+        margin-top: 75px;
+    }
+}
+
+@media only screen and (min-width: 800px) and (min-height: 850px) {
+    .encontra-profesionales {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (min-width: 800px) and (min-height: 950px) {
+    .encontra-profesionales {
+        margin-top: 150px;
+    }
+}
+
+/*pantallas extra grandes*/

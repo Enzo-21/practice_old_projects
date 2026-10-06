@@ -1,0 +1,329 @@
+/*Clases Generales*/
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body, * {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: all .2s ease-in-out;
+}
+
+a:hover {
+    transform: scale(1.1);
+
+}
+
+
+hr {
+    border: solid 1px black;
+}
+
+i.fas, i.fab {
+    font-size: 2em;
+    padding: 50px 0px 10px 0px;
+    transition: all .2s ease-in-out;
+}
+
+i.fas:hover, i.fab:hover{
+    transform: scale(1.1);
+}
+
+
+.black-text {
+    color: black;
+}
+
+.gray-text {
+    color: gray;
+}
+
+.align-right {
+    text-align: right;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    color: white;
+    text-transform: uppercase;
+}
+
+/*------------------*/
+.principal-left{
+    background-color: gray;
+    width: 43%;
+    height: 100vh;
+    float: left;
+}
+
+.principal-left header {
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+    overflow: hidden;
+    height: 15vh;
+}
+
+.boton {
+    width: 18%;
+    float: left;
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+    line-height: 15vh;
+}
+
+.boton:hover {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+
+#nombre {
+    width: 82%;
+    color: rgb(180, 180, 180);
+    margin-left: 150px;
+    font-size: 3em;
+    line-height: 15vh;
+}
+
+nav.sidebar {
+    background-color: rgb(37, 37, 37);
+    float: left;
+    height: 85vh;
+    text-align: center;
+    padding: 0 15px;
+}
+
+nav.sidebar li {
+    font-size: 0.8em;
+}
+
+
+.foto {
+    height: 85vh;
+    text-align: center;
+    background-image: url(recursos-cv-online/IMG_3258.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foto img {
+    height: 100%;
+}
+
+
+
+/*LADO DERECHO------------------------------------------*/
+.principal-right{
+    background-color: black;
+    width: 57%;
+    height: 100vh;
+    float: right;
+}
+
+.presentacion {
+    background-color: white;
+    height: 75vh;
+}
+
+.presentacion nav {
+    text-align: center;
+    line-height: 15vh;
+}
+
+.presentacion nav ul li {
+    display: inline-flex;
+    margin-right: 10px;
+}
+
+.presentacion nav {
+    height: 15vh;
+    background-color: rgba(199, 199, 199, 0.253);
+}
+
+.contenido-presentacion {
+    padding: 20px 25% 0px 15%;
+    margin-top: 45px;
+}
+
+.nombre-grande {
+    font-size: 7em;
+    margin: auto auto;
+}
+
+div.enlaces {
+    display: inline-flex;
+    width: 100%;
+    height: 25vh;
+    line-height: 25vh;
+}
+
+.mail {
+    text-align: center;
+    color: white;
+    background-color: rgb(168, 168, 168);
+    width: 30%;
+    transition: all 1s ease-in-out;
+}
+
+.wsp {
+    text-align: center;
+    color: white;
+    background-color: rgb(117, 117, 117);
+    width: 30%;
+    transition: all 1s ease-in-out;
+}
+
+.mas {
+    text-align: center;
+    color: white;
+    background-color: rgb(97, 97, 97);
+    width: 40%;
+    transition: all 1s ease-in-out;
+}
+
+.mail:hover {
+    background-color: red;
+}
+
+.wsp:hover {
+    background-color: rgb(7, 160, 7);
+}
+
+.mas:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.black-hover {
+    transition: all 1s ease-in-out;
+}
+
+.mas:hover .black-hover {
+    color: black;
+}
+
+/*------------Secciones-------------*/
+
+section#quien-soy {
+    background-color: rgba(104, 131, 150, 0.712);
+    width: 50%;
+    clear: both;
+}
+
+.contenido-seccion {
+    padding: 50px;
+}
+
+.nombre {
+    font-size: 3em;
+    color: white;
+}
+
+div.separador {
+    width: 50%;
+    clear: both;
+}
+
+ul.datos-contacto {
+    padding: 5%;
+}
+
+ul.datos-contacto li {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    line-height: 2.5em;
+}
+
+/*---------------------*/
+
+section#formacion {
+    float: right;
+    background-color:rgba(104, 131, 150, 0.452);
+    width: 50%;
+}
+
+
+
+/*---------------------*/
+
+section#experiencia {
+    float: left;
+    background-color:rgba(124, 176, 212, 0.452);
+    width: 50%;
+}
+
+.buscoya {
+    color: orange;
+    font-weight: bold;
+}
+
+/*---------------------*/
+
+section#portfolio {
+    float: right;
+    background-color: rgb(104, 131, 150);
+    width: 50%;
+    color: white;
+}
+
+#portfolio ul li {
+    display: inline;
+}
+
+
+.item-portfolio {
+    width: 7em;
+    transition: all .2s ease-in-out;
+}
+
+.item-portfolio:hover {
+    transform: scale(1.2);
+}
+
+/*-------Footer-------*/
+
+footer {
+    width: 100%;
+    background-color:  rgb(37, 37, 37);
+    overflow: hidden;
+    line-height: 5em;
+}
+
+footer a img {
+    width: 5em;
+    padding: 25px;
+    float: left;
+}
+
+footer p.proyecto {
+    padding: 25px 0;
+    color: white;
+    width: 70%;
+    float: left;
+}
+
+footer p{
+    padding: 25px ;
+    color: white;
+    float: right;
+}
+
+
+
+
+
+
+

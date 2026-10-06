@@ -1,0 +1,71 @@
+body {
+  background-image: url('../imagenes/fondo.png');
+}
+
+canvas {
+  margin: auto;
+  display: flex;
+  margin-top: calc(50vh - 286px);
+}
+
+.boton-recargar {
+  margin: auto;
+  display: flex;
+  background: none;
+  border: none;
+  color: white;
+  font-family: monospace;
+  visibility: hidden;
+  font-size: 1rem;
+  border: 1px solid white;
+  padding: 0.8rem;
+  margin-top: 1rem;
+}
+
+.boton-recargar:hover {
+  cursor: pointer;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  color: rgba(255, 255, 255, 0.63);
+  font-family: monospace;
+  display: none;
+  font-size: 4rem;
+}
+
+.ganador {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.mensaje {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mensaje a{
+  padding: 0.8rem;
+  font-size: 1.5rem;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  border: 1px solid white;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.mensaje a:hover {
+  cursor: pointer;
+ 
+}
+
+
+
+

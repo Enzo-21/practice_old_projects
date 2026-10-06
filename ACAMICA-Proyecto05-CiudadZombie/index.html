@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/juego.css">
+    <title>Ciudad Zombie</title>
+</head>
+
+<body>
+    <div class="mensaje">
+        <img id="mensaje-img" src="imagenes/Mensaje1.png" alt="">
+        <a href="#" id="boton">Siguiente</a>
+    </div>
+
+    <script>
+        let imagen = document.getElementById('mensaje-img');
+        let boton = document.getElementById('boton');
+        let contador = 0
+
+        boton.addEventListener('click', function () {
+            imagen.src = 'imagenes/Mensaje2.png'
+            contador++;
+            if (contador > 1) {
+                boton.setAttribute("href", "juego.html")
+            }
+        })
+
+
+    </script>
+</body>
+
+</html>
